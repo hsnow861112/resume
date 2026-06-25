@@ -14,8 +14,8 @@
 
         <!-- Bootstrap Icons -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-      <script type="module" crossorigin src="/resume/assets/index-BqMNSX4j.js"></script>
-      <link rel="stylesheet" crossorigin href="/resume/assets/index-N8WyRs1O.css">
+      <script type="module" crossorigin src="/resume/assets/index-LPEHXs1H.js"></script>
+      <link rel="stylesheet" crossorigin href="/resume/assets/index-DS67xPm1.css">
     </head>
     <body>
 
@@ -45,6 +45,10 @@
                     <h6 class="sidebar-section-title">Contact</h6>
                     <ul class="contact-list">
                         <li>
+                            <i class="bi bi-telephone-fill"></i>
+                            <span>010-9603-9906</span>
+                        </li>
+                        <li>
                             <i class="bi bi-envelope-fill"></i>
                             <a href="mailto:hsnow861112@gmail.com">hsnow861112@gmail.com</a>
                         </li>
@@ -58,31 +62,34 @@
                         <span class="skill-label">Frontend</span>
                         <div class="skill-tags">
                             <span class="skill-tag">React</span>
-                            <span class="skill-tag">Vue.js</span>
                             <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">Vue.js 2</span>
                             <span class="skill-tag">JavaScript</span>
                         </div>
                     </div>
                     <div class="skill-group">
-                        <span class="skill-label">Styling</span>
+                        <span class="skill-label">상태관리 / 폼</span>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Zustand</span>
+                            <span class="skill-tag">Context API</span>
+                            <span class="skill-tag">react-hook-form</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <span class="skill-label">UI / 스타일</span>
                         <div class="skill-tags">
                             <span class="skill-tag">Tailwind CSS</span>
                             <span class="skill-tag">shadcn/ui</span>
                         </div>
                     </div>
                     <div class="skill-group">
-                        <span class="skill-label">Browser API</span>
+                        <span class="skill-label">실시간 / 시각화</span>
                         <div class="skill-tags">
-                            <span class="skill-tag">Canvas API</span>
-                            <span class="skill-tag">Web Worker</span>
                             <span class="skill-tag">WebSocket</span>
-                        </div>
-                    </div>
-                    <div class="skill-group">
-                        <span class="skill-label">State / Test</span>
-                        <div class="skill-tags">
-                            <span class="skill-tag">Zustand</span>
-                            <span class="skill-tag">Cypress</span>
+                            <span class="skill-tag">Web Worker</span>
+                            <span class="skill-tag">Canvas API</span>
+                            <span class="skill-tag">requestAnimationFrame</span>
+                            <span class="skill-tag">Protocol Buffers</span>
                         </div>
                     </div>
                     <div class="skill-group">
@@ -127,23 +134,31 @@
                         <div class="highlight-list">
                             <div class="highlight-item">
                                 <i class="bi bi-check-circle-fill"></i>
-                                <span>JSP/jQuery → Vue.js → React + TypeScript로의 SPA 전환 및 프론트엔드 구조 개선 경험</span>
+                                <span>프론트엔드 파트(3명) 일정·작업 분배와 정기 코드 리뷰를 맡아 파트의 개발 품질과 일정을 관리</span>
                             </div>
                             <div class="highlight-item">
                                 <i class="bi bi-check-circle-fill"></i>
-                                <span>shadcn 기반 공통 UI 컴포넌트 라이브러리 구성 및 Nexus 배포 체계 운영</span>
+                                <span>레거시(JSP/jQuery) 화면을 SPA로 전환하고, Vue.js 2를 거쳐 React + TypeScript 기반으로 프론트엔드 구조를 정비</span>
                             </div>
                             <div class="highlight-item">
                                 <i class="bi bi-check-circle-fill"></i>
-                                <span>Canvas 기반 XView 차트, Topology 편집기, 필드 매핑 편집기 등 개발</span>
+                                <span>공통 UI 컴포넌트를 라이브러리화해 사내 Nexus에 배포, 화면 개발·유지보수 효율 개선</span>
                             </div>
                             <div class="highlight-item">
                                 <i class="bi bi-check-circle-fill"></i>
-                                <span>Web Worker로 WebSocket 처리 분리, 원형 큐로 실시간 대용량 데이터 처리 개선</span>
+                                <span>JSON 화면 제너레이터, Canvas 기반 Topology·필드 매핑 편집기 등 반복 작업을 줄이는 내부 개발 도구 구축</span>
                             </div>
                             <div class="highlight-item">
                                 <i class="bi bi-check-circle-fill"></i>
-                                <span>Cypress E2E 테스트 도입으로 배포 안정성 및 QA 비용 개선</span>
+                                <span>React 화면의 리렌더·번들·전송량 최적화로 Lighthouse 성능 점수 27 → 92, 초기 번들 약 12MB → 0.6MB로 개선</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>APM 대시보드에서 WebSocket 수신을 Web Worker로 분리하고, 원형 큐·Protocol Buffers로 실시간 대용량 데이터 처리 최적화</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>라이브러리 없이 Canvas로 XView 산점도·Speed Bar 차트를 직접 구현하고, 장시간 운영 메모리 누수를 힙 스냅샷 근거로 분석·해결</span>
                             </div>
                         </div>
                 </div>
@@ -167,60 +182,67 @@
                             <div class="timeline-header">
                                 <div class="timeline-title-wrap">
                                     <h3 class="timeline-company">인젠트</h3>
-                                    <span class="timeline-period">2019.11 — 재직중 <em>· 6년 2개월</em></span>
+                                    <span class="timeline-period">2019.11 — 재직중</span>
                                 </div>
                                 <span class="timeline-role">Frontend Developer</span>
                             </div>
 
                             <div class="project-grid">
 
+                                <div class="project-card project-card--wide">
+                                    <h4 class="project-title">연계 인스턴스 실시간 모니터링 대시보드 (React + TypeScript)</h4>
+                                    <ul class="project-body">
+                                        <li>연계 시스템 각 인스턴스의 <strong>자원 상태(CPU·메모리·디스크)와 처리량</strong>을 실시간으로 한 화면에서 모니터링</li>
+                                        <li>라인·바·도넛 등 일반 지표 차트는 <strong>Chart.js</strong>로 구현</li>
+                                        <li>라이브러리로 표현이 안 되는 <strong>Speed Bar·XView는 Canvas로 직접 구현</strong> (제품 요건에 맞춰 형태 일부 변경)</li>
+                                    </ul>
+                                </div>
+
+                                <div class="project-card project-card--wide">
+                                    <h4 class="project-title">React 화면 성능 최적화 (리렌더·번들·로딩)</h4>
+                                    <ul class="project-body">
+                                        <li>props로 전달되는 함수만 선별해 <strong>useCallback/useMemo 정리</strong>, 화면을 작은 단위로 분리해 React.memo 적용</li>
+                                        <li>Context 관심사 분리, zustand <strong>selector 패턴 전환</strong>, useState/useRef 분리, react-hook-form 필드 단위 구독으로 리렌더 최소화</li>
+                                        <li>lazy + Suspense 코드 스플리팅과 <strong>gzip·brotli 사전 압축</strong>으로 초기 로딩 비용·다운로드량 절감</li>
+                                    </ul>
+                                    <div class="project-metrics">
+                                        <span class="metric"><b>27 → 92</b><span>Lighthouse 성능</span></span>
+                                        <span class="metric"><b>12MB → 0.6MB</b><span>초기 번들</span></span>
+                                        <span class="metric"><b>700ms → 30ms</b><span>TBT</span></span>
+                                    </div>
+                                </div>
+
                                 <div class="project-card">
-                                    <h4 class="project-title">SPA 아키텍처 도입 &amp; 공통 UI 표준화</h4>
-                                    <p class="project-body">
-                                        JSP+jQuery 기반의 중복 코드 문제를 해소하기 위해 React / Vue / Angular 비교 분석 후
-                                        Vue.js 2 기반 SPA로 전환을 주도. 이후 React + TypeScript + Tailwind + shadcn 기반으로
-                                        재정비하고 공통 UI 컴포넌트를 Nexus에 라이브러리로 배포해 팀 간 재사용 구조를 구축했습니다.
-                                        SemVer 기반 버전·변경 이력 관리 기준도 함께 정립했습니다.
-                                    </p>
+                                    <h4 class="project-title">SPA 전환 &amp; 공통 UI 컴포넌트화</h4>
+                                    <ul class="project-body">
+                                        <li>JSP+jQuery 중복 코드 문제 → SI 현장 비전문 인력도 수정하기 쉬운 <strong>Vue.js 2로 SPA 전환</strong></li>
+                                        <li>이후 React + TypeScript + Tailwind + shadcn으로 UI 재정비</li>
+                                        <li>공통 UI 컴포넌트를 <strong>Nexus에 라이브러리로 배포</strong>해 팀 간 재사용</li>
+                                    </ul>
                                 </div>
 
                                 <div class="project-card">
                                     <h4 class="project-title">JSON 기반 화면 자동 생성 제너레이터</h4>
-                                    <p class="project-body">
-                                        SI 현장에서 백엔드 개발자가 프론트 화면까지 구현해야 하는 부담을 줄이기 위해
-                                        특정 JSON 스키마 입력만으로 검색 영역 + 그리드 + 상세 화면 구조를 자동 생성하는
-                                        제너레이터를 개발. 화면 패턴과 렌더링 규칙을 정형화하여 약속된 JSON만으로
-                                        화면 확장이 가능하도록 설계했습니다.
-                                    </p>
+                                    <ul class="project-body">
+                                        <li>JSON 스키마 입력만으로 <strong>검색 + 그리드 + 상세 화면 자동 생성</strong></li>
+                                        <li>화면 패턴·렌더링 규칙을 정형화해 약속된 JSON만으로 화면 확장 가능</li>
+                                    </ul>
                                 </div>
 
                                 <div class="project-card">
-                                    <h4 class="project-title">Low-Code Topology 편집기 개발 &amp; 배포</h4>
-                                    <p class="project-body">
-                                        복잡한 연계 로직을 공통 로직과 결합하는 시간을 단축하기 위해 소스 코드 블록을
-                                        노드로 치환하고 연결선(엣지)으로 시각화하는 Canvas 기반 편집기를 구현.
-                                        노드 / 엣지 / 그룹 노드를 지원하며 Vite + TypeScript로 개발 후
-                                        npm 라이브러리 형태로 번들링해 사내 Nexus에 배포했습니다.
-                                    </p>
+                                    <h4 class="project-title">Low-Code Topology 편집기</h4>
+                                    <ul class="project-body">
+                                        <li>소스 코드 블록을 <strong>노드로 치환</strong>하고 연결선(엣지)으로 로직을 시각화 (Canvas)</li>
+                                        <li>노드/엣지/그룹 노드 지원, Vite + TypeScript → npm 라이브러리로 Nexus 배포</li>
+                                    </ul>
                                 </div>
 
                                 <div class="project-card">
                                     <h4 class="project-title">필드 매핑 편집기 (Source–Target)</h4>
-                                    <p class="project-body">
-                                        시스템·채널별로 전문(메시지) 구조 정의가 달라 같은 의미의 데이터가 서로 다른 필드명으로
-                                        존재하는 문제를 UI로 해결. Source / Target 필드 목록을 드래그앤드롭으로 연결하고
-                                        매핑 결과를 Canvas 화살표로 즉시 시각화. 중복 매핑 방지 로직과
-                                        초기화 기능으로 운영 편의성을 강화했습니다.
-                                    </p>
-                                </div>
-
-                                <div class="project-card project-card--wide">
-                                    <h4 class="project-title">Cypress E2E 테스트 자동화 도입</h4>
-                                    <p class="project-body">
-                                        배포 전 반복되는 수동 테스트 비용 증가와 신규 인력 온보딩 시 기능 이해 부담을 해소하기 위해
-                                        주요 UI 시나리오를 Cypress 테스트 케이스로 작성해 회귀 테스트를 자동화.
-                                        시나리오 중심으로 구성하여 테스트 코드가 기능 문서 역할도 겸하도록 설계했습니다.
-                                    </p>
+                                    <ul class="project-body">
+                                        <li>시스템·채널별 <strong>필드명 불일치</strong>를 드래그앤드롭 UI로 해결</li>
+                                        <li>매핑 결과를 Canvas 화살표로 즉시 시각화, 중복 매핑 방지·초기화 기능</li>
+                                    </ul>
                                 </div>
 
                             </div>
@@ -228,9 +250,9 @@
                             <div class="company-stack">
                                 <span class="company-stack-label">사용 기술</span>
                                 <div class="company-stack-tags">
-                                    <span>React</span><span>Vue.js</span><span>TypeScript</span><span>Tailwind CSS</span>
-                                    <span>shadcn/ui</span><span>Canvas API</span><span>Vite</span>
-                                    <span>Nexus</span><span>npm</span><span>Cypress</span>
+                                    <span>React</span><span>TypeScript</span><span>Vue.js 2</span><span>Tailwind CSS</span>
+                                    <span>shadcn/ui</span><span>zustand</span><span>react-hook-form</span>
+                                    <span>Canvas API</span><span>Chart.js</span><span>Vite</span><span>Nexus</span>
                                 </div>
                             </div>
                         </div>
@@ -245,7 +267,7 @@
                             <div class="timeline-header">
                                 <div class="timeline-title-wrap">
                                     <h3 class="timeline-company">브레인즈컴퍼니</h3>
-                                    <span class="timeline-period">2012.07 — 2019.11 <em>· 7년 5개월</em></span>
+                                    <span class="timeline-period">2012.07 — 2019.11</span>
                                 </div>
                                 <span class="timeline-role">Frontend Developer</span>
                             </div>
@@ -253,60 +275,68 @@
                             <div class="project-grid">
 
                                 <div class="project-card">
-                                    <h4 class="project-title">APM 실시간 모니터링 대시보드</h4>
-                                    <p class="project-body">
-                                        WAS 트랜잭션과 성능 지표를 실시간으로 모니터링하는 APM 대시보드 개발.
-                                        드래그앤드롭으로 성능 항목을 배치해 맞춤형 대시보드를 구성하는 편집/표시 구조를 설계하고
-                                        WebSocket 수신 데이터를 각 차트에 연결해 실시간 갱신 구조를 구축했습니다.
-                                    </p>
+                                    <h4 class="project-title">APM 실시간 성능 모니터링 대시보드</h4>
+                                    <ul class="project-body">
+                                        <li>WAS 트랜잭션·성능 지표를 실시간 모니터링</li>
+                                        <li>성능 항목을 <strong>드래그앤드롭으로 배치</strong>하는 맞춤형 대시보드 편집/표시 구조 설계</li>
+                                        <li>라인·바·도넛 등 일반 차트는 <strong>CanvasJS</strong>, Speed Bar·XView는 <strong>Canvas로 직접 구현</strong></li>
+                                        <li>WebSocket 수신 데이터를 각 차트에 연결해 실시간 갱신</li>
+                                    </ul>
                                 </div>
 
                                 <div class="project-card">
-                                    <h4 class="project-title">Web Worker 기반 실시간 처리 구조 개선</h4>
-                                    <p class="project-body">
-                                        메인 스레드에서 WebSocket 수신·가공·렌더링을 모두 처리해 발생하던 UI 지연을
-                                        Web Worker에서 WebSocket을 직접 연결하고 수신·가공을 분리하는 방식으로 해결.
-                                        메인 스레드에는 렌더링에 필요한 최소 결과만 전달해 반응성을 개선했습니다.
-                                    </p>
+                                    <h4 class="project-title">실시간 데이터 처리 구조 개선 (Web Worker · Protocol Buffers)</h4>
+                                    <ul class="project-body">
+                                        <li>메인 스레드의 수신·가공·렌더 부하로 인한 UI 지연 → <strong>Web Worker에서 WebSocket 직접 연결</strong>해 수신·역직렬화 수행, 메인 스레드엔 렌더링용 최소 결과만 전달</li>
+                                        <li>JSON 문자열 → <strong>.proto 바이너리</strong> 도입에 맞춰 ArrayBuffer 역직렬화 직접 구현 (JSON 대비 작은 페이로드)</li>
+                                    </ul>
+                                </div>
+
+                                <div class="project-card project-card--wide">
+                                    <h4 class="project-title">장시간 운영 안정성 (연결 안정화 · 리소스 정리)</h4>
+                                    <ul class="project-body">
+                                        <li>onclose/onerror가 안 뜨는 <strong>응답 불능(좀비) 연결</strong>을 2초 heartbeat + 마지막 수신 시각으로 감지 (30초 미수신 시 서버 불안정 경고)</li>
+                                        <li>재접속 간격을 점점 늘려가며 재시도하되, <strong>대시보드 ID 비교</strong>로 화면 전환 시 의도적 종료와 장애를 구분해 불필요한 재접속 차단</li>
+                                        <li>백그라운드 탭 setInterval 지연을 <strong>Web Worker 타이머</strong>로 해결, 화면 전환 후 잔존 RAF/소켓/타이머 즉시 정리</li>
+                                    </ul>
+                                    <div class="project-metrics">
+                                        <span class="metric"><b>30초</b><span>좀비 연결 감지</span></span>
+                                        <span class="metric"><b>최대 5회</b><span>재접속 시도</span></span>
+                                    </div>
                                 </div>
 
                                 <div class="project-card">
-                                    <h4 class="project-title">WebSocket 연결 안정화 &amp; 잔존 작업 방지</h4>
-                                    <p class="project-body">
-                                        onerror / onclose 감지 후 지수 백오프 방식(1회 10초, 2회 30초 등)으로 최대 5회 재접속.
-                                        대시보드 ID를 전역 저장해 화면 전환 시 의도적 종료와 서버 장애를 구분, 불필요한 재접속 차단.
-                                        RAF / WebSocket / interval / worker 생성 시 대시보드·메뉴 ID를 함께 보관해
-                                        전환 후 잔존 작업을 즉시 정리하도록 구현했습니다.
-                                    </p>
+                                    <h4 class="project-title">XView 차트 &amp; 대용량 렌더링 최적화</h4>
+                                    <ul class="project-body">
+                                        <li>시간×응답시간 실시간 산점도, 최근 <strong>5분 슬라이딩 윈도우</strong></li>
+                                        <li>유효 구간만 <strong>이미지 캡처 → 맨 앞 재배치 → 신규만 추가 렌더</strong>로 전체 재렌더링 회피</li>
+                                        <li>원형 큐로 배열 재정렬 비용 제거 + 그리기 루프 ~10ms 분할로 메인 스레드 점유 분산</li>
+                                    </ul>
+                                    <div class="project-metrics">
+                                        <span class="metric"><b>30만 건</b><span>차트당 상한</span></span>
+                                    </div>
                                 </div>
 
                                 <div class="project-card">
-                                    <h4 class="project-title">백그라운드 탭 타이머 &amp; 메모리 누수 개선</h4>
-                                    <p class="project-body">
-                                        백그라운드 탭 전환 시 setInterval 지연으로 데이터 누적·메모리 급증이 발생하는 문제를
-                                        Web Worker 타이머 관리로 해결. Chrome DevTools 힙 스냅샷을 반복 수집·비교해
-                                        리테인 사이즈 증가 구조를 특정하고 장시간 운영 안정성을 확보했습니다.
-                                    </p>
+                                    <h4 class="project-title">XView 장시간 운영 메모리 누수 해결</h4>
+                                    <ul class="project-body">
+                                        <li>24시간 가동 시 메모리 증가로 브라우저 다운 → <strong>힙 스냅샷 반복 비교</strong>로 리테인 사이즈 추적</li>
+                                        <li>TPS를 일정하게 유지하며 1시간 단위 측정 → XView만 증가함을 확인</li>
+                                        <li>삭제 로직의 <strong>날짜 비교 부등호가 반대</strong>인 실제 버그를 찾아 수정</li>
+                                    </ul>
+                                    <div class="project-metrics">
+                                        <span class="metric"><b>24h</b><span>안정 가동 확보</span></span>
+                                    </div>
                                 </div>
 
                                 <div class="project-card">
-                                    <h4 class="project-title">XView 차트 구현 &amp; 대용량 렌더링 최적화</h4>
-                                    <p class="project-body">
-                                        시간(X축) × 응답시간(Y축) 기준 실시간 산점도 차트. 전체 재렌더링 대신
-                                        캔버스 이미지 캡처 → 전체 삭제 → 캡처 이미지 재배치 방식으로 흘러가는 효과를 구현.
-                                        원형 큐 + 30만 건 상한 정책으로 폭증 시에도 메모리를 안정 유지하고
-                                        RAF 기반 10ms 그리기 루프로 메인 스레드 점유를 분산했습니다.
-                                    </p>
-                                </div>
-
-                                <div class="project-card">
-                                    <h4 class="project-title">SpeedBar 차트 &amp; Protocol Buffers 적용</h4>
-                                    <p class="project-body">
-                                        초당 요청 / 처리 중 트랜잭션 / 초당 처리량을 레이저 애니메이션으로 표현하는
-                                        SpeedBar 차트를 기존 라이브러리로는 구현 불가해 Canvas 직접 구현.
-                                        커브 구간은 1차 함수로 좌표 계산 후 두 구간으로 연결.
-                                        Google Protocol Buffers 기반 바이너리 역직렬화 적용으로 전송·파싱 부담을 절감했습니다.
-                                    </p>
+                                    <h4 class="project-title">Speed Bar 차트 구현</h4>
+                                    <ul class="project-body">
+                                        <li>라이브러리로 표현 불가 → <strong>Canvas 직접 구현</strong></li>
+                                        <li>왼쪽 밖에서 생긴 선이 오른쪽으로 흐르고, 색이 옅어지는 꼬리로 레이저처럼 보이게 표현</li>
+                                        <li>선마다 출발 시점을 조금씩 늦춰 한 줄로 이어 발사되는 효과</li>
+                                        <li>특정 X 지점부터 세로 중앙으로 꺾이도록 1차 함수로 직선·커브 두 구간 연결</li>
+                                    </ul>
                                 </div>
 
                             </div>
@@ -314,7 +344,7 @@
                             <div class="company-stack">
                                 <span class="company-stack-label">사용 기술</span>
                                 <div class="company-stack-tags">
-                                    <span>JavaScript</span><span>Canvas API</span><span>Web Worker</span>
+                                    <span>JavaScript</span><span>Canvas API</span><span>CanvasJS</span><span>Web Worker</span>
                                     <span>WebSocket</span><span>requestAnimationFrame</span>
                                     <span>Protocol Buffers</span><span>Chrome DevTools</span>
                                 </div>
@@ -424,6 +454,6 @@
 
             </section>
         </main>
-
+
     </body>
 </html>
